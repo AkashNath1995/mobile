@@ -1,0 +1,38 @@
+body{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.mobile{
+    background-color: black;
+    align-items: center;
+    border-radius: 20px;
+    border: 4px solid rgb(209, 57, 57);
+    color: white;
+}
+.screen{
+    height: 75%;
+    width:100%;
+    
+}
+img{
+    height: 50%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.navigation{
+    display: flex;
+}
+.nav-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    justify-content: center;
+    transition: 400ms;
+}
+.nav-item:hover{
+    color:violet;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
